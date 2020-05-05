@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Intro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        $("h2").click(function(){
+          $(this).hide()
+        })
+        $("h2.intro").click(function(){
+          $(this).hide()
+        })
+        $("h2:first").click(function(){
+          $(this).hide()
+        })
+        $("button").click(function(){
+    $("[href]").hide();
+  });
+      })
+
+    </script>
+  </head>
+  <body>
+<h2>Quanta</h2>
+<h2 class="intro">Machine Learning</h2>
+<h2>Artificial Intelligence</h2>
+<p>
+<a href="#">One</a>
+</p>
+<p>List 1:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea</li>
+</ul>
+
+<p>List 2:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea</li>
+</ul>
+<button>Click me</button>
+  </body>
+</html>
